@@ -1,6 +1,8 @@
-x = 10
-y = 20
-z = 5
+nome = "Riccardo"
+cognome = "Motta"
+nome_completo = nome + " " + cognome
 
-# La somma di questi valori è:
-print(f"La somma di {x},{y},{z} è di {x+y+z}")
+with open("output.txt", mode = "a") as file:
+    file.write("Hello World")
+
+print("\nStringa 'hello world' scritta sul file 'output.txt' correttamente")
